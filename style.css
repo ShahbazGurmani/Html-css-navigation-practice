@@ -1,0 +1,38 @@
+
+.container{
+    padding: 0;
+    margin: 0;
+    height: 1200px;
+    width:100vw;
+    background-color: aqua;
+   
+}
+.box1{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    margin: 2px;
+    
+
+}
+
+.box1p{
+    position: relative;
+    left: 20px;
+    top:10px;   
+}
+.box2p{
+    position: absolute;
+    top:3px;
+    left:20px;
+}
+.chat{
+    position: fixed;
+    right: 4px;
+    bottom: 4px;
+}
+.boxs{
+    position: sticky;
+    top:3px;
+}
